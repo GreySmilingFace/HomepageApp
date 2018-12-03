@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="/home">Home</a>
+
+    <button class="navbar-toggler" type="button"
+            (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse"
+         [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="toggleNavbar()">News</a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownTeams" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Mannschaften
+            </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownTeams">
+                <a class="dropdown-item" routerLink="/maenner1">Männer 1</a>
+                <a class="dropdown-item" routerLink="/damen1">Damen 1</a>
+                <a class="dropdown-item" routerLink="/maenner2">Männer 2</a>
+                <a class="dropdown-item" routerLink="/damen2">Damen 2</a>
+                <a class="dropdown-item" routerLink="/maenner3">Männer 3</a>
+                <a class="dropdown-item" routerLink="/a-jugend">A-Jugend</a>
+                <a class="dropdown-item" routerLink="/e-jugend">Gemischte E-Jugend</a>
+                <a class="dropdown-item" routerLink="/minis">Minis</a>
+              </div>
+          </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="toggleNavbar()">Galerie</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="toggleNavbar()">Archiv</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="toggleNavbar()">Kontakte</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sponsoren" (click)="toggleNavbar()">Sponsoren</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="toggleNavbar()">Hallen</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Impressum</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
