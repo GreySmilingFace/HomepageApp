@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { TeamsModule } from './teams/teams.module';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { TeamsModule } from './teams/teams.module';
     SponsorenComponent,
     PageNotFoundComponent,
     HomeComponent,
+    FooterComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

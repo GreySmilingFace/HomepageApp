@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/test/tabellen.css",
               "src/styles.scss"
             ],
             "scripts": [
+              "src/assets/test/jquery.js",
+              "src/assets/test/tabellen.js",
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
