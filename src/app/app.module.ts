@@ -10,12 +10,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { TeamsModule } from './teams/teams.module';
 import { FooterComponent } from './footer/footer.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TeamsModule
+    TeamsModule,
+    CoreModule
   ],
   declarations: [
     AppComponent,
