@@ -3,6 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  url: "http://localhost:8080/bhv-service/api/v1/",
   production: false
 };
 

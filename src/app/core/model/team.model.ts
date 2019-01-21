@@ -1,7 +1,7 @@
 export class Team{
     rang: String;
     mannschaft: String;
-    begegnung: String;
+    begegnungen: String;
     s:String;
     u: String;
     n:String;
